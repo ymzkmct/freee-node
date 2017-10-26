@@ -16,7 +16,7 @@ npm install freee-node --save
 
 
 ```js
-var Freee = require('freee-client')
+var Freee = require('freee-node')
 var freee = new Freee({
     clientId: CLIENT_ID,
     clientSecret: CLIENT_SECRET,

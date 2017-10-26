@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "freee-node",
   "version": "1.0.0",
   "description": "freee api client for node.js",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "mocha"
   },
   "author": "ymzkmct",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "client-oauth2": "^4.1.0"
   },
