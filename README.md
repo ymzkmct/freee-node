@@ -26,10 +26,10 @@ var freee = new Freee({
 
 ### access token保存まで
 
-expressを利用したWebサーバで、authorization codeを取得するためにURLにリダイレクトするケースと、access tokenを取得する方法についてのサンプルコードです。oauth2の処理は[js-client-oauth2](https://github.com/mulesoft/js-client-oauth2/)のライブラリに大きく依存しています。
+expressを利用したWebサーバで、authorization codeを取得するためにURLにリダイレクトするケースと、access tokenを取得する方法についてのサンプルコードです。oauth2の処理は[js-client-oauth2](https://github.com/mulesoft/js-client-oauth2/)のライブラリに大きく依存しています。
 
 ```js
-app.get('/freee', function(req, res) {
+app.get('/freee', function(req, res) {
     //認可コード取得用のURLに遷移する
     res.redirect(freee.getUri())
 })
