@@ -1,0 +1,14 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "freee api client for node.js",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "ymzkmct",
+  "license": "ISC",
+  "dependencies": {
+    "client-oauth2": "^4.1.0"
+  },
+  "devDependencies": {}
+}
